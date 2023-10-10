@@ -5,22 +5,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dashboard</title>
 
+    <!-- Font Roboto -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,400&display=swap');
+    </style>
+
     <!-- Normalize -->
     <link rel="stylesheet" href="./assets/css/normalize.css">
 
     <!-- CSS -->
     <link rel="stylesheet" href="./assets/css/style.css">
+
+    <!-- Global CSS-->
+    <link rel="stylesheet" href="./assets/css/global.css">
     
 </head>
 <body>
-    <nav>
-        <p>Dashboard</p>
+    <header></header>
+    <nav id="nav">
+        <h1>Dashboard</h1>
         <ul>
-            <li>Teste</li>
+            <li class="dashboard__menu-home">Home</li>
+            <li class="dashboard__menu-dados">Dados</li>
+            <li class="dashboard__menu-users">Users</li>
+            <li class="dashboard__menu-leads">Leads</li>
+            <li class="dashboard__menu-config">Configurações</li>
         </ul>
     </nav>
     <main>
-
+        <div class="container">
+            <section id="dashboard__home"></section>
+            <section id="dashboard__dados"></section>
+            <section id="dashboard__users"></section>
+            <section id="dashboard__leads"></section>
+            <section id="dashboard__config"></section>
+        </div>
     </main>
 </body>
 </html>
