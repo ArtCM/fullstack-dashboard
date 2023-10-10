@@ -1,0 +1,32 @@
+
+/* Roboto font & Scroll*/
+
+* {
+    font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+/* Container */
+
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* Background */
+
+body{
+    background-image: url(../../img/background.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Colors */
+
+:root{
+    --nav-font-color: #fff;
+    --font-light-color: #409DBA;
+    --theme-background-color: #010A19;
+}
+
