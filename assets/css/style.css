@@ -1,0 +1,42 @@
+/* O CSS segue o padrão mobile first */
+
+/*  Classes reutilizadas  */
+
+.d-none{
+    display: none;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.direction-resp{
+    flex-direction: column;
+}
+
+@media(min-width: 700px){
+    .direction-resp{
+        flex-direction: row;
+    }
+}
+
+.centralize{
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Navbar */
+
+nav{
+    position: fixed;
+    padding: 20px;
+    width: 200px;
+    max-width: 15vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
