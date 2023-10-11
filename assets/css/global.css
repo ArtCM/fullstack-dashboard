@@ -5,6 +5,18 @@
     font-family: 'Roboto', sans-serif;
     scroll-behavior: smooth;
     box-sizing: border-box;
+    color: #858585;
+}
+
+section::-webkit-scrollbar{
+    width: 10px;
+}
+section::-webkit-scrollbar-thumb{
+    border-radius: 50px;
+    background: var(--font-light-color);
+}
+section::-webkit-scrollbar-track{
+    background: #ededed;
 }
 
 /* Container */
